@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ClaculWithTest.MainPage">
+
+    <StackLayout>
+        <Entry x:Name="nm1" Placeholder="number 1" Text=""  />
+        <Entry x:Name="nm2" Placeholder="number 2" Text=""  />
+        <Button x:Name="SubmitBtn" Text="+" BackgroundColor="#56cfe1" TextColor="#fff" Clicked="SubmitBtn_Clicked" />
+
+        <Label x:Name="result" Text="" FontSize="Small" TextColor="#2a9d8f" />
+    </StackLayout>
+
+</ContentPage>
